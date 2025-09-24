@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import CockTails from './components/CockTails.tsx';
 import About from './components/About.tsx';
+import Art from './components/Art.tsx';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <CockTails />
       <About />
+      <Art />
     </main>
   );
 };
