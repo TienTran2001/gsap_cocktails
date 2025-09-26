@@ -7,6 +7,7 @@ import CockTails from './components/CockTails.tsx';
 import About from './components/About.tsx';
 import Art from './components/Art.tsx';
 import Menu from './components/Menu.tsx';
+import Contact from './components/Contact.tsx';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Art />
       <Menu />
+      <Contact />
     </main>
   );
 };
